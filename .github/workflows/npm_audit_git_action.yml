@@ -1,0 +1,25 @@
+name: npm_audit_git_action
+run-name: ${{ github.actor }} is learning GitHub Actions
+on: [pull]
+jobs:
+  npm-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: install dependencies
+        run: npm ci
+         - uses: oke-py/npm-audit-action@v2
+           with:
+             github_token: ${{ secrets.GITHUB_TOKEN }}
+             issue_assignees: oke-py
+             issue_labels: vulnerability,test
+             dedupe_issues: true
+             github_context: true
+             json_flag: true
+      - name: set python
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: run py script
+        run: |
+          python main.py
