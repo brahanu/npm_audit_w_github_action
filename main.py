@@ -15,7 +15,7 @@ def parse_arguments():
     PARSER.add_argument(
         "-s",
         "--severity",
-        help="Severity to fail on or above",
+        help="Severity threshold, the minimal severity the user cannot tolerate",
         choices=["low", "moderate", "high", "critical"],
         required=True,
 
@@ -23,7 +23,7 @@ def parse_arguments():
     PARSER.add_argument(
         "-t",
         "--title",
-        help="String in the title of the security issue title",
+        help="String in the description of the security issue to look for",
         type=str,
         required=True,
     )
@@ -64,7 +64,7 @@ def check_title(title, vulner_data):
     :param vulner_data: the vulnarabilities found by the npm report,
     :return: True if the title is found, False otherwise
     """
-    for vul in vulner_data["Description"]:
+    for vul in vulner_data["description"]:
         if title in vul:
             return True
     return False
