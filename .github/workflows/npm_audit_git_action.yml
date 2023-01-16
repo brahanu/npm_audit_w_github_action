@@ -16,10 +16,7 @@ jobs:
       - name: install dependencies
         run: npm install
       - name: run npm audit
-        run: npm audit --json | audit.json
-  run-py-script:
-    - runs-on: ubuntu-latest
-    - steps:
+        run: npm audit --json | tee audit.json
       - name: set python
       - uses: actions/setup-python@v4
         with:
