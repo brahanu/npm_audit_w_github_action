@@ -13,12 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: install dependencies
-      - uses: actions/checkout@v3
+        uses: actions/checkout@v3
         run: npm install
       - name: run npm audit
         run: npm audit --json | tee audit.json
       - name: set python
-      - uses: actions/setup-python@v4
+        uses: actions/setup-python@v4
         with:
           python-version: '3.x'
       - name: run py script
