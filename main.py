@@ -76,12 +76,15 @@ def run():
     severity = ARGS.severity
     title = ARGS.title
     # load the json file
+    with open('*.json','r') as json_file:
+        npm_audit_data = json.load(json_file)
+    """
     try:
-        npm_audit_data = json.load(sys.stdin)
+        npm_audit_data = json.load(sys.stdin)  # need other way to load the json file
     except:
         print("Couldnt parse json from stdin")
         sys.exit(1)
-
+    """
     vulnerabilities_metadata = npm_audit_data["metadata"]["vulnerabilities"]
     # parse the vulnerabilities_metadata rubric by severity
     try:

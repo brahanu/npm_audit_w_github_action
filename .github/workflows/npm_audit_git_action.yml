@@ -1,6 +1,13 @@
 name: npm_audit_git_action
 run-name: ${{ github.actor }} is learning GitHub Actions
 on: [pull]
+inputs:
+  severity:
+    description: 'Severity threshold, the minimal severity the user cannot tolerate'
+    required: true
+  title:
+    description: 'String in the description of the security issue to look for'
+    required: true
 jobs:
   npm-audit:
     runs-on: ubuntu-latest
@@ -22,4 +29,4 @@ jobs:
           python-version: '3.x'
       - name: run py script
         run: |
-          python main.py
+          python main.py --severity='${{ github.event.inputs.severity }}' --title='${{ github.event.inputs.title }}' 
