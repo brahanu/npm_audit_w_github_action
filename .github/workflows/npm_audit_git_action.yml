@@ -1,5 +1,5 @@
 name: npm_audit_git_action
-run-name: ${{ github.actor }} is learning Actions
+run-name: ${{ github.actor }} is learning Action
 on: [pull_request]
 inputs:
   severity:
