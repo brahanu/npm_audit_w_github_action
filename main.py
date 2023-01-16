@@ -76,7 +76,7 @@ def run():
     severity = ARGS.severity
     title = ARGS.title
     # load the json file
-    with open('*.json','r') as json_file:
+    with open('audit.json','r') as json_file:
         npm_audit_data = json.load(json_file)
     """
     try:

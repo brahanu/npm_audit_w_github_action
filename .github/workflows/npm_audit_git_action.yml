@@ -12,6 +12,7 @@ jobs:
   npm-audit:
     runs-on: ubuntu-latest
     steps:
+      - id: step1
       - uses: actions/checkout@v3
       - name: install dependencies
         run: npm ci
@@ -19,14 +20,20 @@ jobs:
            with:
              github_token: ${{ secrets.GITHUB_TOKEN }}
              issue_assignees: oke-py
-             issue_labels: vulnerability,test
              dedupe_issues: true
              github_context: true
              json_flag: true
+        outputs:
+          output1: ${{steps.step1.outputs.test}}
+  run-py-script:
+    - runs-on: ubuntu-latest
+    - steps:
       - name: set python
       - uses: actions/setup-python@v4
         with:
           python-version: '3.x'
+      - name: save json output
+        run: ${{steps.step1.outputs.test}} > audit.json
       - name: run py script
         run: |
           python main.py --severity='${{ github.event.inputs.severity }}' --title='${{ github.event.inputs.title }}' 
