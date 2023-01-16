@@ -1,6 +1,6 @@
 name: npm_audit_git_action
 run-name: ${{ github.actor }} is learning GitHub Actions
-on: [pull]
+on: [pull_request]
 inputs:
   severity:
     description: 'Severity threshold, the minimal severity the user cannot tolerate'

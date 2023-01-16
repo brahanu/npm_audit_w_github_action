@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="654e1569-b41b-47de-ae04-f5d73ee86b72" name="Changes" comment="json i/o">
-      <change afterPath="$PROJECT_DIR$/test_nest-js" afterDir="false" />
+    <list default="true" id="654e1569-b41b-47de-ae04-f5d73ee86b72" name="Changes" comment="test js">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/npm_audit_git_action.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/npm_audit_git_action.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +19,20 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/test_nest-js" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="8a04d65d-899e-4de3-ae89-893605a7c57d" />
+        <option name="url" value="https://github.com/brahanu/npm_audit_w_github_action.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -114,7 +128,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673892135042</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="test js">
+      <created>1673892444623</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673892444623</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test js">
+      <created>1673892723534</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673892723534</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -122,6 +150,7 @@
     <MESSAGE value="documentation" />
     <MESSAGE value="i/o update" />
     <MESSAGE value="json i/o" />
-    <option name="LAST_COMMIT_MESSAGE" value="json i/o" />
+    <MESSAGE value="test js" />
+    <option name="LAST_COMMIT_MESSAGE" value="test js" />
   </component>
 </project>
