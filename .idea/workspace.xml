@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="654e1569-b41b-47de-ae04-f5d73ee86b72" name="Changes" comment="test js">
+    <list default="true" id="654e1569-b41b-47de-ae04-f5d73ee86b72" name="Changes" comment="pull_request typo">
       <change beforePath="$PROJECT_DIR$/.github/workflows/npm_audit_git_action.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/npm_audit_git_action.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +141,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673892723534</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="pull_request typo">
+      <created>1673894680756</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673894680756</updated>
+    </task>
+    <task id="LOCAL-00010" summary="pull_request typo">
+      <created>1673894818790</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673894818790</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -151,6 +164,7 @@
     <MESSAGE value="i/o update" />
     <MESSAGE value="json i/o" />
     <MESSAGE value="test js" />
-    <option name="LAST_COMMIT_MESSAGE" value="test js" />
+    <MESSAGE value="pull_request typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="pull_request typo" />
   </component>
 </project>

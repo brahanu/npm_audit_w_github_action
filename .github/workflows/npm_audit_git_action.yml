@@ -12,8 +12,8 @@ jobs:
   npm-audit:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - name: install dependencies
-        uses: actions/checkout@v3
         run: npm install
       - name: run npm audit
         run: npm audit --json | tee audit.json
