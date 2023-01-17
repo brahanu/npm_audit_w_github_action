@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="654e1569-b41b-47de-ae04-f5d73ee86b72" name="Changes" comment="test pull">
+    <list default="true" id="654e1569-b41b-47de-ae04-f5d73ee86b72" name="Changes" comment="inputs">
       <change beforePath="$PROJECT_DIR$/.github/workflows/npm_audit_git_action.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/npm_audit_git_action.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673895501135</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="inputs">
+      <created>1673897943486</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1673897943486</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -203,6 +211,7 @@
     <MESSAGE value="yml reorder" />
     <MESSAGE value="yml reorder2" />
     <MESSAGE value="test pull" />
-    <option name="LAST_COMMIT_MESSAGE" value="test pull" />
+    <MESSAGE value="inputs" />
+    <option name="LAST_COMMIT_MESSAGE" value="inputs" />
   </component>
 </project>

@@ -1,15 +1,14 @@
 import json
 import sys
 import argparse
-import io
 
 
 def parse_arguments():
     """
-    parses the script input argument:
-     severity: the minimal severity threshold the user cannot tolerate
-     title: a string to look for in npm audit report, which indicates which problems the user cannot tolerate
-    :return: PARSER instance with the given program inputs
+    #parses the script input argument:
+     #severity: the minimal severity threshold the user cannot tolerate
+     #title: a string to look for in npm audit report, which indicates which problems the user cannot tolerate
+    #:return: PARSER instance with the given program inputs
     """
     PARSER = argparse.ArgumentParser(description="npm audit with github Action")
     PARSER.add_argument(
